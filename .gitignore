@@ -1,0 +1,37 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data files — too large for GitHub
+data/faiss_index.bin
+data/faiss_meta.json
+data/research_memory.db
+data/embed_cache.json
+data/artifacts/
+
+# Environment — NEVER upload API keys
+.env
+.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradio
+flagged/
+gradio_cached_examples/
+
+# Test
+.pytest_cache/
+.coverage
