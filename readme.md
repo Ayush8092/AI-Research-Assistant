@@ -1,5 +1,5 @@
----
-title: AI Research Assistant
+﻿---
+title: Ai Research Assistant
 emoji: 🔬
 colorFrom: blue
 colorTo: indigo
@@ -7,7 +7,6 @@ sdk: gradio
 sdk_version: "4.44.0"
 app_file: app.py
 pinned: false
-license: mit
 ---
 
 # 🔬 AI Research Assistant
@@ -24,7 +23,7 @@ A Hierarchical Multi-Agent System for AI/Healthcare Research
 - BibTeX export
 
 ## Setup
-Add `GROQ_API_KEY` in Space secrets settings.
+Add GROQ_API_KEY in Space secrets settings.
 
 ## Built With
 LangGraph · LangChain · FAISS · Groq LLM · Gradio
